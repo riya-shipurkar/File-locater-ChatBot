@@ -30,7 +30,7 @@ def chatbot_search():
     while True:
         start_directory = input("Momo: Enter the directory to search in (or press Enter to search 'C:\\Users\\riyas'): ").strip()
         if not start_directory:
-            start_directory = r"C:\\Users\\riyas"
+            start_directory = r"enter//your//default//directory"
 
         fileType = input("Momo: Are you specifically looking for a pdf/docx/csv/xl file? Enter the file type or enter None: ").strip().lower()
         if fileType == "none":
